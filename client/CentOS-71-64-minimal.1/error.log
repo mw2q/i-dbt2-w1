@@ -1,0 +1,330 @@
+Wed May  6 17:21:59 2015
+tid:1082636032 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55050 waits for ShareLock on transaction 40292; blocked by process 55058.
+Process 55058 waits for ShareLock on transaction 40295; blocked by process 55050.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4857,6) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:22:43 2015
+tid:1081038592 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55064 waits for ShareLock on transaction 106662; blocked by process 55062.
+Process 55062 waits for ShareLock on transaction 106664; blocked by process 55064.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5527,262) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:22:49 2015
+tid:1081837312 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55058 waits for ShareLock on transaction 115759; blocked by process 55064.
+Process 55064 waits for ShareLock on transaction 115758; blocked by process 55058.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5655,125) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:22:55 2015
+tid:1053497088 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55070 waits for ShareLock on transaction 124845; blocked by process 55054.
+Process 55054 waits for ShareLock on transaction 124849; blocked by process 55070.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5250,257) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:23:10 2015
+tid:1081837312 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55058 waits for ShareLock on transaction 147182; blocked by process 55068.
+Process 55068 waits for ShareLock on transaction 147181; blocked by process 55058.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4841,27) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:24:07 2015
+tid:1082369792 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55054 waits for ShareLock on transaction 236192; blocked by process 55050.
+Process 55050 waits for ShareLock on transaction 236190; blocked by process 55054.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5807,29) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:24:28 2015
+tid:1054029568 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55066 waits for ShareLock on transaction 268603; blocked by process 55060.
+Process 55060 waits for ShareLock on transaction 268601; blocked by process 55066.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5658,278) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:24:42 2015
+tid:1081571072 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55060 waits for ShareLock on transaction 291739; blocked by process 55070.
+Process 55070 waits for ShareLock on transaction 291736; blocked by process 55060.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5780,281) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:25:59 2015
+tid:1053497088 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55070 waits for ShareLock on transaction 411769; blocked by process 55064.
+Process 55064 waits for ShareLock on transaction 411768; blocked by process 55070.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (151,11) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:26:20 2015
+tid:1081837312 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55058 waits for ShareLock on transaction 442368; blocked by process 55054.
+Process 55054 waits for ShareLock on transaction 442367; blocked by process 55058.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5423,247) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:26:22 2015
+tid:1053763328 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55068 waits for ShareLock on transaction 444025; blocked by process 55060.
+Process 55060 waits for ShareLock on transaction 444022; blocked by process 55068.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5778,286) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:26:31 2015
+tid:1081038592 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55064 waits for ShareLock on transaction 458295; blocked by process 55070.
+Process 55070 waits for ShareLock on transaction 458297; blocked by process 55064.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5470,245) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:26:38 2015
+tid:1054029568 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55066 waits for ShareLock on transaction 467853; blocked by process 55058.
+Process 55058 waits for ShareLock on transaction 467852; blocked by process 55066.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5869,180) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:26:47 2015
+tid:1081038592 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55064 waits for ShareLock on transaction 481156; blocked by process 55060.
+Process 55060 waits for ShareLock on transaction 481151; blocked by process 55064.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5870,215) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:27:21 2015
+tid:1053497088 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55070 waits for ShareLock on transaction 531982; blocked by process 55054.
+Process 55054 waits for ShareLock on transaction 531979; blocked by process 55070.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5842,247) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:27:28 2015
+tid:1081837312 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55058 waits for ShareLock on transaction 541031; blocked by process 55056.
+Process 55056 waits for ShareLock on transaction 541027; blocked by process 55058.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5926,214) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:28:05 2015
+tid:1054029568 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55066 waits for ShareLock on transaction 600177; blocked by process 55050.
+Process 55050 waits for ShareLock on transaction 600182; blocked by process 55066.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (1309,30) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:28:19 2015
+tid:1081304832 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55062 waits for ShareLock on transaction 620908; blocked by process 55050.
+Process 55050 waits for ShareLock on transaction 620909; blocked by process 55062.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (1709,175) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:28:24 2015
+tid:1082636032 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55050 waits for ShareLock on transaction 627105; blocked by process 55060.
+Process 55060 waits for ShareLock on transaction 627109; blocked by process 55050.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4997,48) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:28:44 2015
+tid:1081304832 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55062 waits for ShareLock on transaction 657939; blocked by process 55068.
+Process 55068 waits for ShareLock on transaction 657938; blocked by process 55062.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (2462,57) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:29:14 2015
+tid:1053763328 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55068 waits for ShareLock on transaction 705682; blocked by process 55070.
+Process 55070 waits for ShareLock on transaction 705684; blocked by process 55068.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (2772,30) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:29:44 2015
+tid:1054029568 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55066 waits for ShareLock on transaction 750695; blocked by process 55068.
+Process 55068 waits for ShareLock on transaction 750696; blocked by process 55066.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5961,239) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:30:07 2015
+tid:1054029568 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55066 waits for ShareLock on transaction 786312; blocked by process 55050.
+Process 55050 waits for ShareLock on transaction 786311; blocked by process 55066.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (2222,9) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:30:37 2015
+tid:1053497088 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55070 waits for ShareLock on transaction 833615; blocked by process 55058.
+Process 55058 waits for ShareLock on transaction 833613; blocked by process 55070.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (3103,244) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:31:19 2015
+tid:1082636032 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 55050 waits for ShareLock on transaction 893752; blocked by process 55068.
+Process 55068 waits for ShareLock on transaction 893753; blocked by process 55050.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (6110,105) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:31:36 2015
+tid:1053095680 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052419840 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052284672 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1053230848 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052555008 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1080772352 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052690176 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052960512 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052825344 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 17:31:36 2015
+tid:1052149504 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
